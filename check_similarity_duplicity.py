@@ -15,7 +15,8 @@ def check_similarity(data):
                     except:
                         pass
                     if r > similarity_threshold:
-                        similars.append('-'.join(str(r), data.loc[j, 'file']))
+                        similars.append('-'.join([str(r), data.loc[j, 'file']]))
+
             if len(similars) > 0:
                 data.loc[i, 'similar_images'] = ','.join(similars)
     return data

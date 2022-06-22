@@ -11,10 +11,9 @@ from check_similarity_duplicity import check_similarity
     '''
 
 folders_list = [r'D:\My Documents\SkyDrive\images'
-                # , r'C:\Users\nir-pc\Desktop\New folder'
                 # , r'D:\My Documents\Pictures'
-                # , r'C:\Users\nir-pc\Desktop\New folder (2)'
-                # , r'D:\My Documents\SkyDrive\images', r'G:\My Drive\pics'
+                # , r'D:\My Documents\SkyDrive\images'
+                #, r'G:\My Drive\pics'
                 ]
 
 images = get_image_list('')  # folders_list or any other value for using existing file
